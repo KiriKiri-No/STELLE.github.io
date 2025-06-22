@@ -1,0 +1,36 @@
+/* Reset basic margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page layout settings */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f0f0f0, #d9d9d9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Image container for alignment */
+.image-container {
+  text-align: center;
+}
+
+/* The actual image */
+.image-container img {
+  max-width: 80%;           /* Responsive size */
+  height: auto;
+  border-radius: 12px;       /* Rounded corners */
+  box-shadow: 0px 4px 30px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for a nicer interaction */
+.image-container img:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 8px 40px rgba(0,0,0,0.25);
+}
