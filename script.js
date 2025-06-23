@@ -1,10 +1,10 @@
 const wrapper = document.querySelector(".wrapper");
-const colors = ["#ffff00","#9d95ff", "#abff84", "#00bae2"];
+const colors = ["#fe0fff","#9d95ff", "#abff84", "#00bae2"];
 const boxes = gsap.utils.toArray(".box");
 console.clear();
-gsap.set(boxes , {
-	backgroundColor: gsap.utils.wrap(colors)
-});
+// gsap.set(boxes , {
+// 	backgroundColor: gsap.utils.wrap(colors)
+// });
 
 let activeElement;
 const loop = horizontalLoop(boxes, {
