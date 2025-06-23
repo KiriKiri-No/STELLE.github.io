@@ -1,6 +1,7 @@
 const wrapper = document.querySelector(".wrapper");
 const colors = ["#fe0fff","#9d95ff", "#abff84", "#00bae2"];
 const boxes = gsap.utils.toArray(".box");
+
 console.clear();
 // gsap.set(boxes , {
 // 	backgroundColor: gsap.utils.wrap(colors)
